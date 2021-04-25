@@ -1,0 +1,90 @@
+.co:hover {
+       background-color: buttonface; 
+    }
+    
+.navbar-default {
+    background-color: #3B59A7;
+    border-color: #8e44ad;
+    .navbar-nav {
+        > li {
+            > a {
+                color: #ecf0f1;
+                &:hover, &:focus {
+                    color: #ecdbff;   }}}
+        .active {
+            > a, > a:hover, > a:focus {
+                color: #ecdbff;
+                background-color: #8e44ad; }}
+        .open {
+            > a, > a:hover, > a:focus {
+                color: #ecdbff;
+                background-color: #8e44ad;
+                .caret {
+                    border-top-color: #ecdbff;
+                    border-bottom-color: #ecdbff; }}}
+        > .dropdown {
+            > a {
+                .caret {
+                    border-top-color: #ecf0f1;
+                    border-bottom-color: #ecf0f1; }
+                &:hover, &:focus {
+                    .caret {
+                        border-top-color: #ecdbff;
+                        border-bottom-color: #ecdbff; }}}}}
+    .navbar-toggle {
+        border-color: #8e44ad;
+        &:hover, &:focus {
+            background-color: #8e44ad; }
+        .icon-bar {
+            background-color: #ecf0f1; }}}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ecf0f1;
+        &:hover, &:focus {
+            color: #ecdbff;
+            background-color: #8e44ad; }}
+}
+.cen{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.row_style{
+    margin-top: 40px;
+    padding: 50px;
+}
+.tar{
+    width: 100%;
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    float: left;
+    margin-left: 1%;
+}
+.pho{
+    align:left;
+}
+
+.tit{
+    text-align: center;
+}
+.con{
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+.ima{
+    float: right;
+}
+.contact{
+    padding-top: 60px;
+}
+.st{
+    color: white;
+    text-align: center;
+}
